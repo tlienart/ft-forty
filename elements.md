@@ -66,9 +66,7 @@ this is a code block
 
 Finally this is [a link](#).
 
-~~~
-<hr />
-~~~
+---
 
 ## Heading level 2
 
@@ -76,9 +74,7 @@ Finally this is [a link](#).
 
 #### Heading level 4
 
-~~~
-<hr />
-~~~
+---
 
 Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.
 
@@ -279,7 +275,7 @@ Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget
 
 @@image,right ![](/assets/images/pic10.jpg) @@
 
-Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. 
+Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum.
 
 ### Box
 

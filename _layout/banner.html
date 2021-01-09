@@ -1,0 +1,35 @@
+{{isdef banner_title}}
+
+{{ispage index.html}}
+<section id="banner" class="major">
+  <div class="inner">
+    <header class="major">
+      <h1>{{banner_title}}</h1>
+    </header>
+    <div class="content">
+      <p>{{banner_descr}}</p>
+      <ul class="actions">
+        <li><a href="#one" class="button next scrolly">Get Started</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+{{end}}
+
+{{isnotpage index.html 404.html}}
+<section id="banner" class="style2">
+  <div class="inner">
+    <span class="image">
+      <img src="{{banner_img}}" alt="" />
+    </span>
+    <header class="major">
+      <h1>{{banner_title}}</h1>
+    </header>
+    <div class="content">
+      <p>{{banner_descr}}</p>
+    </div>
+  </div>
+</section>
+{{end}}
+
+{{end}}

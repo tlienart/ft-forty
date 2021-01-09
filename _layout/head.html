@@ -2,12 +2,23 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  {{if hasmath}} {{insert head_katex.html }}     {{end}}
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+	{{if hasmath}} {{insert head_katex.html }}     {{end}}
   {{if hascode}} {{insert head_highlight.html }}   {{end}}
-  <link rel="stylesheet" href="/css/franklin.css">
+
+	<link rel="stylesheet" href="/css/main.css" />
+  <noscript><link rel="stylesheet" href="/css/noscript.css" /></noscript>
+
   {{isdef title}} <title>{{fill title}}</title>  {{end}}
 </head>
-<body>
+<body class="is-preload">
+	<div id="wrapper">
+
+	{{insert header.html}}
+	{{insert nav.html}}
+	{{insert banner.html}}
+
+	<div id="main" class="{{main_class}}">
 
 <!-- Content appended here -->

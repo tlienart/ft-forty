@@ -36,8 +36,8 @@ jobs:
             using Pkg;
             Pkg.add(Pkg.PackageSpec(name="Franklin", rev="master"));
             Pkg.add(["NodeJS", "CommonMark", "FranklinUtils"]);
-            Pkg.activate("."); Pkg.instantiate();
             using NodeJS; run(`$(npm_cmd()) install highlight.js`);
+            using FranklinUtils;
             using Franklin;
             optimize()'
     - name: Build and Deploy

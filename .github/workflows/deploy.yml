@@ -36,6 +36,7 @@ jobs:
             using Pkg;
             Pkg.add(Pkg.PackageSpec(name="Franklin", rev="master"));
             Pkg.add(["NodeJS", "CommonMark", "FranklinUtils"]);
+            Pkg.activate("."); Pkg.instantiat();
             using NodeJS; run(`$(npm_cmd()) install highlight.js`);
             using Franklin;
             optimize()'
